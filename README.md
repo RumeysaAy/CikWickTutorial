@@ -1,0 +1,2 @@
+# CikWickTutorial
+SkinnyDev Unity Eğitimi
