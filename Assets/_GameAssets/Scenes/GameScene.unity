@@ -1977,6 +1977,7 @@ GameObject:
   - component: {fileID: 2018222260}
   - component: {fileID: 2018222259}
   - component: {fileID: 2018222262}
+  - component: {fileID: 2018222263}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -2092,6 +2093,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62fa37caa387b4801afcc5561d317ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2018222263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2018222257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae338f31c7b7442f89838cd8f8c664bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerAnimator: {fileID: 919132149474376482}
 --- !u!137 &245042373934732069
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 0
@@ -2197,7 +2211,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3571620134984395463}
   m_Layer: 0
-  m_Name: root
+  m_Name: Root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2212,6 +2226,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 543450653414908315}
+  - component: {fileID: 919132149474376482}
   m_Layer: 0
   m_Name: PlayerVisual
   m_TagString: Untagged
@@ -2219,6 +2234,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &919132149474376482
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132149474376481}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0f4d84c15e5637f459f5b80cd4203531, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!4 &1706136847341310982
 Transform:
   m_ObjectHideFlags: 0
